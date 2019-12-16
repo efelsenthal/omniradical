@@ -1,0 +1,11 @@
+{
+    "Functions": {
+        "LambdaWebPageLambdaFunction": {
+            "PhysicalId": {
+                "us-east-1": "lambda-web-page"
+            }
+        }
+    },
+    "RestApiId": "k8rtjltje7",
+    "StackName": "cloud9-lambda-web-page-example"
+}
