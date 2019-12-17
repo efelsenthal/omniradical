@@ -15,15 +15,15 @@ Anyone can clone this project and make a pull request.
 
 ## the language (for starters)
 
-Make app (app name) makes an app
-Make user (user name) makes a user
-Give public access to app name 
-Give user access to app name, entity name or field name
-(entity name) has a (entity name) makes a 1:1 relationship
-(entity name) has (entity names)  makes a 1: m relationship
-(entity name) is a/an (entity name) creates an inherited table, field type
-Make a report of [entity [entities]] [as a list] [as an item]
-Add report (report name) to page (page name)
+ Make app (app name) makes an app
+ Make user (user name) makes a user
+ Give public access to app name 
+ Give user access to app name, entity name or field name
+ (entity name) has a (entity name) makes a 1:1 relationship
+ (entity name) has (entity names)  makes a 1: m relationship
+ (entity name) is a/an (entity name) creates an inherited table, field type
+ Make a report of [entity [entities]] [as a list] [as an item]
+ Add report (report name) to page (page name)
 
 
 ## initial development sequence
