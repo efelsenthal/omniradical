@@ -30,7 +30,7 @@ Add report (report name) to page (page name)
 
 1) Add the ability to publish the site as Hello World from a this Git master branch
    I NEED SOMEONE TO DO THIS (me for now)  
-   1a)write a node.js lambda function that takes as input an app name (string) and creates an omniradical.com AName using AWSSDK, then follows this procedure to create and API https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-edge-optimized-custom-domain-name.html  
+   1a)write a node.js lambda function that takes as input an app name (string) and creates an omniradical.com AName using AWSSDK, then follows this procedure to create an API https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-edge-optimized-custom-domain-name.html  
    1b) the api will map to a copy of existing hello world API gateway, but it will say hello world from app {appname}  
    1c) import the lambda function into SAM  
    1d) Add an input box and submit button (this to be replaced by chatbot later) into existing main web page so that one can create a new app by clicking submit and then get a message "Your app is being created at {appname}.omniradical.com/home.  Please try accessing it in a few minutes.  
