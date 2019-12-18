@@ -33,9 +33,9 @@ Add report (report name) to page (page name)
    1a)write a node.js lambda function that takes as input an app name (string) and creates an omniradical.com AName using AWSSDK, then follows this procedure to create an API https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-edge-optimized-custom-domain-name.html  
    1b) the api will map to a copy of existing hello world API gateway, but it will say hello world from app {appname}  
    1c) import the lambda function into SAM  
-   1d) Add an input box and submit button (this to be replaced by chatbot later) into existing main web page so that one can create a new app by clicking submit and then get a message "Your app is being created at {appname}.omniradical.com/home.  Please try accessing it in a few minutes.  
+   1d) Add an input box and submit button (this to be replaced by chatbot later) into existing main Hello World web page so that one can create a new app by clicking submit and then get a message "Your app is being created at {appname}.omniradical.com/home.  Please try accessing it in a few minutes.  
 2) Give the Hello World a chat bot.
-3) Respond to "Make app (app name) by deploying a new URL in the form https://appservername.omniradical.com who's header is [app name] and is visible to the public.
+3) Respond to "Make app (app name) by executing the code written in 1) above.
 4) Respond to "Make user" by creating a 2 factor Cognito user.
 5) Respond to "Give user access to [app name]" by updating the app so that it can accept a user login for this user and after logging in the page will display "logged in as [user name]" and a logout menu item will be added.
 
